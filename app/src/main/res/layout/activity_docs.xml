@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="?attr/colorOnSecondary"
+    android:orientation="vertical"
+    tools:ignore="MissingDefaultResource">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:ignore="UselessParent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="6dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="@string/diag_title"
+                android:textColor="?attr/colorPrimary"
+                android:textSize="18sp" />
+
+            <LinearLayout
+                android:id="@+id/early_dia_lin"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="6dp">
+
+                <TextView
+                    android:id="@+id/early_dia"
+                    style="@style/dis_text"
+                    android:text="@string/eaarly_diabetes"
+                    tools:ignore="VisualLintLongText" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/dia_lin"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="6dp">
+
+                <TextView
+                    android:id="@+id/dia"
+                    style="@style/dis_text"
+                    android:text="@string/diabetes_des"
+                    tools:ignore="VisualLintLongText" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/hypo_lin"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="6dp">
+
+                <TextView
+                    android:id="@+id/hypo"
+                    style="@style/dis_text"
+                    android:text="@string/hypoglycemia_des"
+                    tools:ignore="VisualLintLongText" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/anemia_lin"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="6dp">
+
+                <TextView
+                    android:id="@+id/anemia"
+                    style="@style/dis_text"
+                    android:text="@string/anemia_des"
+                    tools:ignore="VisualLintLongText" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/dehy_lin"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="6dp">
+
+                <TextView
+                    android:id="@+id/dehy"
+                    style="@style/dis_text"
+                    android:text="@string/dehy_des"
+                    tools:ignore="VisualLintLongText" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/aids_lin"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="6dp">
+
+                <TextView
+                    android:id="@+id/aids"
+                    style="@style/dis_text"
+                    android:text="@string/aids_des"
+                    tools:ignore="VisualLintLongText" />
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

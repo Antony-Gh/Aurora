@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="DataText" parent="TextAppearance.AppCompat">
+        <item name="android:textColor">@color/white</item>
+        <item name="android:layout_width">120dp</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:gravity">center|start</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <style name="unittext" parent="TextAppearance.AppCompat">
+        <item name="android:textColor">?attr/colorOnBackground</item>
+        <item name="android:layout_width">80dp</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <style name="edittext" parent="TextAppearance.AppCompat">
+        <item name="android:textColor">?attr/colorOnBackground</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:padding">2dp</item>
+        <item name="android:gravity">center|start</item>
+        <item name="android:layout_height">55dp</item>
+        <item name="android:textColorHint">@color/smallyellow</item>
+        <item name="android:inputType">numberDecimal</item>
+        <item name="android:textCursorDrawable">@drawable/cursor_drawable</item>
+    </style>
+
+    <style name="col_text" parent="TextAppearance.AppCompat">
+        <item name="android:textColor">?attr/colorOnBackground</item>
+        <item name="android:layout_width">0dp</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:layout_span">1</item>
+        <item name="android:textAppearance">@style/TextAppearance.Material3.TitleSmall</item>
+        <item name="android:padding">4dp</item>
+        <item name="android:background">@drawable/cell_shape</item>
+    </style>
+
+    <style name="MyHintStyle" parent="TextAppearance.Design.Hint">
+        <item name="android:textColor">?attr/colorPrimaryVariant</item>
+        <item name="android:textSize">12sp</item>
+    </style>
+
+    <style name="text_input" parent="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.Dense">
+        <item name="android:padding">4dp</item>
+        <item name="android:layout_height">72dp</item>
+        <item name="android:gravity">start|center</item>
+        <item name="android:textColorHint">@color/grey</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:layout_width">0dp</item>
+    </style>
+
+    <style name="dis_text" parent="TextAppearance.AppCompat">
+        <item name="android:textColor">?attr/colorOnBackground</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:gravity">start</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_span">1</item>
+        <item name="android:textAppearance">@style/TextAppearance.AppCompat.Body1</item>
+        <item name="android:padding">5dp</item>
+    </style>
+
+    <style name="Rounded" parent="ShapeAppearance.MaterialComponents.SmallComponent">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">16dp</item>
+    </style>
+
+    <attr name="splash_wallpaper" format="reference" />
+
+</resources>

@@ -1,0 +1,265 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="?attr/colorOnSecondary"
+    android:fillViewport="true">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:padding="10dp">
+
+        <LinearLayout
+            android:id="@+id/data_lay"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="20dp"
+            android:gravity="center|top"
+            android:orientation="vertical">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="75dp"
+                android:background="@drawable/data_lin"
+                android:gravity="center"
+                android:orientation="horizontal"
+                android:padding="4dp">
+
+                <com.google.android.material.textfield.TextInputLayout
+                    style="@style/text_input"
+                    app:hintTextAppearance="@style/MyHintStyle"
+                    app:shapeAppearance="@style/Rounded">
+
+                    <EditText
+                        android:id="@+id/edit1"
+                        style="@style/edittext"
+                        android:hint="@string/hemoglopin_rate"
+                        android:importantForAutofill="no" />
+                </com.google.android.material.textfield.TextInputLayout>
+
+                <TextView
+                    style="@style/unittext"
+                    android:text="@string/gm_decil" />
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="horizontal"
+                android:padding="2dp">
+
+                <com.google.android.material.textfield.TextInputLayout
+                    style="@style/text_input"
+                    app:hintTextAppearance="@style/MyHintStyle"
+                    app:shapeAppearance="@style/Rounded">
+
+                    <EditText
+                        android:id="@+id/edit2"
+                        style="@style/edittext"
+                        android:hint="@string/cholesterol_rate"
+                        android:importantForAutofill="no" />
+                </com.google.android.material.textfield.TextInputLayout>
+
+                <TextView
+                    style="@style/unittext"
+                    android:text="@string/mg_decil" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="horizontal"
+                android:padding="2dp">
+
+                <com.google.android.material.textfield.TextInputLayout
+                    style="@style/text_input"
+                    app:hintTextAppearance="@style/MyHintStyle"
+                    app:shapeAppearance="@style/Rounded">
+
+                    <EditText
+                        android:id="@+id/edit3"
+                        style="@style/edittext"
+                        android:hint="@string/red_blood"
+                        android:importantForAutofill="no" />
+                </com.google.android.material.textfield.TextInputLayout>
+
+                <TextView
+                    style="@style/unittext"
+                    android:text="@string/millionrbcs" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="horizontal"
+                android:padding="2dp">
+
+                <com.google.android.material.textfield.TextInputLayout
+                    style="@style/text_input"
+                    app:hintTextAppearance="@style/MyHintStyle"
+                    app:shapeAppearance="@style/Rounded">
+
+                    <EditText
+                        android:id="@+id/edit4"
+                        style="@style/edittext"
+                        android:hint="@string/white_blood"
+                        android:importantForAutofill="no" />
+                </com.google.android.material.textfield.TextInputLayout>
+
+                <TextView
+                    style="@style/unittext"
+                    android:text="@string/wbcs_l" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="horizontal"
+                android:padding="2dp">
+
+
+                <com.google.android.material.textfield.TextInputLayout
+                    style="@style/text_input"
+                    app:hintTextAppearance="@style/MyHintStyle"
+                    app:shapeAppearance="@style/Rounded">
+
+                    <EditText
+                        android:id="@+id/edit5"
+                        style="@style/edittext"
+                        android:hint="@string/hematocrit_rate"
+                        android:importantForAutofill="no" />
+                </com.google.android.material.textfield.TextInputLayout>
+
+
+                <TextView
+                    style="@style/unittext"
+                    android:text="@string/percent" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/ser_lay"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="horizontal"
+                android:padding="2dp">
+
+                <com.google.android.material.textfield.TextInputLayout
+                    style="@style/text_input"
+                    app:hintTextAppearance="@style/MyHintStyle"
+                    app:shapeAppearance="@style/Rounded">
+
+                    <EditText
+                        android:id="@+id/edit6"
+                        style="@style/edittext"
+                        android:hint="@string/serun_iron"
+                        android:importantForAutofill="no" />
+                </com.google.android.material.textfield.TextInputLayout>
+
+                <TextView
+                    style="@style/unittext"
+                    android:text="@string/mcg_decil" />
+
+            </LinearLayout>
+
+            <LinearLayout
+
+                android:id="@+id/vitb_lay"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="horizontal"
+                android:padding="2dp">
+
+                <com.google.android.material.textfield.TextInputLayout
+                    style="@style/text_input"
+                    app:hintTextAppearance="@style/MyHintStyle"
+                    app:shapeAppearance="@style/Rounded">
+
+                    <EditText
+                        android:id="@+id/edit7"
+                        style="@style/edittext"
+                        android:hint="@string/vitamin_b"
+                        android:importantForAutofill="no" />
+                </com.google.android.material.textfield.TextInputLayout>
+
+                <TextView
+                    style="@style/unittext"
+                    android:text="@string/pg_ml" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/gluu"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="horizontal"
+                android:padding="2dp">
+
+                <com.google.android.material.textfield.TextInputLayout
+                    style="@style/text_input"
+                    app:hintTextAppearance="@style/MyHintStyle"
+                    app:shapeAppearance="@style/Rounded">
+
+                    <EditText
+                        android:id="@+id/edit8"
+                        style="@style/edittext"
+                        android:hint="@string/blood_glucose_a1c"
+                        android:importantForAutofill="no" />
+                </com.google.android.material.textfield.TextInputLayout>
+
+                <TextView
+                    style="@style/unittext"
+                    android:text="@string/mg_decil" />
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/but_analyze"
+                android:layout_width="140dp"
+                android:layout_height="60dp"
+                android:layout_marginTop="20dp"
+                android:fontFamily="@font/cus_font"
+                android:text="@string/start_analyzing"
+                android:textColor="@color/black"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:id="@+id/prog_lay"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:padding="8dp"
+            android:visibility="gone">
+
+            <ProgressBar
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_marginBottom="7dp" />
+
+            <TextView
+                style="@style/DataText"
+                android:gravity="center"
+                android:text="@string/analyzing_blood_data"
+                android:textColor="?attr/colorOnBackground"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+    </RelativeLayout>
+</ScrollView>

@@ -1,0 +1,79 @@
+<resources>
+    <string name="app_name">Aurora</string>
+    <!-- Strings related to login -->
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="welcome">"Welcome !"</string>
+    <string name="invalid_username">Not a valid username</string>
+    <string name="invalid_password">Password must be >5 characters</string>
+    <string name="login_failed">"Login failed"</string>
+    <string name="hemoglopin_rate">Hemoglobin Rate</string>
+    <string name="cholesterol_rate">Cholesterol Rate</string>
+    <string name="red_blood">Red Blood Cells Count</string>
+    <string name="white_blood">White Blood Cells Count</string>
+    <string name="hematocrit_rate">Hematocrit Rate</string>
+    <string name="serun_iron">Serun Iron</string>
+    <string name="vitamin_b">Vitamin B12</string>
+    <string name="start_analyzing">Start Analyzing</string>
+    <string name="analyzing_blood_data">Analyzing Blood Data</string>
+    <string name="device_key">Device Code</string>
+    <string name="error">Error</string>
+    <string name="test_results">Test Results</string>
+    <string name="normal_rate">Normal Rate</string>
+    <string name="high_rate">High Rate</string>
+    <string name="low_rate">Low Rate</string>
+    <string name="pg_ml">pg/mL</string>
+    <string name="mcg_decil">mcg/deciL</string>
+    <string name="percent" translatable="false">%</string>
+    <string name="wbcs_l">WBCs/µL</string>
+    <string name="millionrbcs">Million/cmm</string>
+    <string name="mg_decil">mg/deciL</string>
+    <string name="gm_decil">gm/deciL</string>
+    <string name="normal">Normal</string>
+    <string name="danger">Danger</string>
+    <string name="low">Low</string>
+    <string name="normal_des">Green color for normal or safe rates</string>
+    <string name="blue_color_des">Blue color for low rates</string>
+    <string name="red_color_des">Red color for danger or high rates</string>
+    <string name="instructions">Instructions :</string>
+    <string name="hemoglopin">Hemoglobin :</string>
+    <string name="cholesterol">Cholesterol :</string>
+    <string name="red_blood_cells">Red Blood Cells :</string>
+    <string name="white_blood_cells">White Blood Cells :</string>
+    <string name="hematocrit">Hematocrit :</string>
+    <string name="test_name">Test Name</string>
+    <string name="your_value">Your Value</string>
+    <string name="unit">Unit</string>
+    <string name="reference_range">Reference Range</string>
+    <string name="risk_ratio">Risk Ratio</string>
+    <string name="hemo_ref_rate">11,5 – 15,5</string>
+    <string name="chole_ref_rate">190 – 210</string>
+    <string name="red_ref_rate">4 – 5.2</string>
+    <string name="white_ref_rate">4500 – 11000</string>
+    <string name="hema_ref_rate">36 – 45</string>
+    <string name="serun_ref_rate">60 – 170</string>
+    <string name="vit_ref_rate">160 – 950</string>
+    <string name="doc_des">You should see a doctor</string>
+    <string name="flags_tit">You Have :</string>
+    <string name="red_flag">red flags</string>
+    <string name="normal_flag">Normal flags</string>
+    <string name="blue_flag">Blue flags</string>
+    <string name="doc">Why ?</string>
+    <string name="login_act_title">Login</string>
+    <string name="data_act_title">Enter blood data</string>
+    <string name="splash" translatable="false">Splash Screen</string>
+    <string name="blood_glucose_a1c">Blood Glucose (A1C)</string>
+    <string name="glucose_ref">70 – 105</string>
+    <string name="diseases_title" translatable="false">Predicted diseases</string>
+    <string name="diag_title">After reviewing your entered data it became clear to us that you are infected with :</string>
+    <string name="docs_act">Diagnosis</string>
+    <string name="eaarly_diabetes">&lt;a href="https://www.mayoclinic.org/en/diseases-conditions/prediabetes/symptoms-causes/syc-20355278" target="_blank">Early diabetes&lt;/a> : &lt;br>You are on your way to have diabetes. As your rate of blood glucose (A1C) was in between the range 105 – 126 and this indicates your stage, You are in your early stages so don\'t worry.&lt;br>Symptoms of diabetes may include : &lt;br> Feeling more thirsty than usual.&lt;br> frequent urination.&lt;br> Unintentional weight loss.&lt;br> One of the proposed solutions is to maintain a healthy diet and do sports exercise continuously, in addition to getting rid of excess weight. you can call for help whether it is from our technical and doctors support or from your private doctor. &lt;br> doctor : +201015301454 &lt;br> Technical Support : +201008215941</string>
+    <string name="docs_act_title">Predicted diseases</string>
+    <string name="diabetes_des">&lt;a href="https://www.mayoclinic.org/diseases-conditions/type-2-diabetes/symptoms-causes/syc-20351193" target="_blank">Diabetes&lt;/a> : &lt;br>You have diabetes. As your rate of blood glucose (A1C) was above the range 126 and this indicates your stage.&lt;br>Symptoms of diabetes may include:&lt;br> Feeling more thirsty than usual.&lt;br> frequent urination.&lt;br> Unintentional weight loss.&lt;br> One of the proposed solutions is to maintain a healthy diet and do sports exercise continuously, in addition to getting rid of excess weight. you can call for help whether it is from our technical and doctors support or from your private doctor. &lt;br> doctor : +201062825233 &lt;br> Technical Support : +201120572250</string>
+    <string name="hypoglycemia_des">&lt;a href="https://www.mayoclinic.org/diseases-conditions/hypoglycemia/symptoms-causes/syc-20373685" target="_blank">Hypoglycemia&lt;/a> : &lt;br>You have Hypoglycemia that occurs when the level of sugar (glucose) in the blood drops too low for body functions to continue to function. There are many reasons why this might happen. The most common cause of low blood sugar is a side effect of medications used to treat diabetes. As your rate of blood glucose (A1C) was under the value of 70 and this indicates your stage.&lt;br>Symptoms of lake of glucose may include:&lt;br> paleness&lt;br> Shivering&lt;br> sweating&lt;br> Headache&lt;br> hunger&lt;br> or nausea.&lt;br> you can call for help whether it is from our technical and doctors support or from your private doctor. &lt;br> doctor : +201273481309 &lt;br> Technical Support : +201558231869</string>
+    <string name="anemia_des">&lt;a href="https://www.mayoclinic.org/diseases-conditions/anemia/symptoms-causes/syc-20351360" target="_blank">Anemia&lt;/a> : &lt;br>You have Anemia that is a condition in which the blood does not contain enough healthy red blood cells to carry enough oxygen to the body\'s tissues.&lt;br> Anemia, also known as a low hemoglobin level, can make you feel tired and weak, As you have a low rate of hemoglobin and a low number of Red blood cells.&lt;br> So this indicates your stage. Many types of anemia can be prevented. But you can avoid iron deficiency anemia and vitamin deficiency anemia by eating a diet that contains many vitamins and minerals.&lt;br> Don\'t worry, you can call for help whether it is from our technical and doctors support or from your private doctor. &lt;br> doctor : +201014978243 &lt;br> Technical Support : +201091320598</string>
+    <string name="dehy_des">&lt;a href="https://www.mayoclinic.org/diseases-conditions/dehydration/symptoms-causes/syc-20354086" target="_blank">Dehydration&lt;/a> : &lt;br>You have dehydration which occurs as a result of abnormal water loss from the body and this led to increase in hematocrit rates . &lt;br> that is why your hematocrit rate that is why your hematocrit rate is greater than 45%.&lt;br>Symptoms of dehydration may include:&lt;br>feeling thirsty and lightheaded&lt;br>a dry mouth&lt;br>tiredness&lt;br>having dark coloured, strong-smelling urine&lt;br>passing urine less often than usual.&lt;br>One of the proposed solutions is to Drink plenty of water and avoid areas where the temperature or humidity is high.&lt;br>you can call for help whether it is from our technical and doctors support or from your private doctor.  &lt;br> doctor : +201507676713 &lt;br> Technical Support : +201092562750</string>
+    <string name="aids_des">&lt;a href="https://www.mayoclinic.org/diseases-conditions/hiv-aids/symptoms-causes/syc-20373524" target="_blank">HIV/AIDS&lt;/a> : &lt;br>You have aids which caused by the human immunodeficiency virus (HIV) this led to decrease in WBC (White Blood Cell Count) . this is why your wbc count is less than 4500 .&lt;br>Symptoms of dehydration may include:&lt;br>Fever&lt;br>Headache&lt;br>Rash&lt;br>Diarrhea &lt;br>Weight loss&lt;br>Cough&lt;br>Night sweats.&lt;br>Although there is no cure for acquired immunodeficiency syndrome (AIDS) , there is some solutions one of them is AIDS medications and Nucleoside reverse transcriptase inhibitors (NRTI).&lt;br>you can call for help whether it is from our technical and doctors support or from your private doctor. &lt;br> doctor : +201091533827 &lt;br> Technical Support : +201226552360</string>
+    <string name="nodevice">No Device ? Tap to skip signup.</string>
+</resources>

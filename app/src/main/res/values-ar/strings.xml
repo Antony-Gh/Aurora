@@ -1,0 +1,82 @@
+<resources>
+    <string name="app_name">Aurora</string>
+    <!-- Strings related to login -->
+    <string name="prompt_email">الايميل</string>
+    <string name="prompt_password">كلمه السر</string>
+    <string name="action_sign_in_short">تسحيل الدخول</string>
+    <string name="welcome">"اهلا !"</string>
+    <string name="invalid_username">اسم مستخدم غير صحيح</string>
+    <string name="invalid_password">كلمه مرور قصيره</string>
+    <string name="login_failed">فشل تسجيل الدخول</string>
+    <string name="hemoglopin_rate">معدل الهيموجلوبين</string>
+    <string name="cholesterol_rate">معدل الكوليسترول</string>
+    <string name="red_blood">عدد خلايا الدم الحمراء</string>
+    <string name="white_blood">عدد خلايا الدم البيضاء</string>
+    <string name="hematocrit_rate">معدل الهيماتوكريت</string>
+    <string name="serun_iron">حديد سيرون</string>
+    <string name="vitamin_b">فيتامين ب12</string>
+    <string name="start_analyzing">بدأ التحليل</string>
+    <string name="analyzing_blood_data">جار تحليل بيانات الدم</string>
+    <string name="device_key">رمز الجهاز</string>
+    <string name="error">خطأ</string>
+    <string name="test_results">نتائج الاختبار</string>
+    <string name="normal_rate">معدل طبيعي</string>
+    <string name="high_rate">معدل مرتفع</string>
+    <string name="low_rate">معدل منخفض</string>
+    <string name="normal_des">اللون الأخضر للمعدل العادي أو الآمن</string>
+    <string name="pg_ml">بيكوجم/ملليلتر</string>
+    <string name="mcg_decil">ميكروجم/ديسيلتر</string>
+    <string name="wbcs_l">كره دم بيضاء/ميكرولتر</string>
+    <string name="millionrbcs">مليون/ملليلتر</string>
+    <string name="mg_decil">ملليجم/ديسيلتر</string>
+    <string name="gm_decil">جم/ديسيلتر</string>
+    <string name="normal">طبيعي</string>
+    <string name="danger">مرتفع</string>
+    <string name="low">منخفض</string>
+    <string name="blue_color_des">اللون الأزرق لمعدلات منخفضة</string>
+    <string name="red_color_des">اللون الأحمر للخطر أو معدلات عالية</string>
+    <string name="instructions">تعليمات :</string>
+    <string name="hemoglopin">الهيموجلوبين :</string>
+    <string name="cholesterol">كولسترول :</string>
+    <string name="red_blood_cells">خلايا الدم الحمراء :</string>
+    <string name="white_blood_cells">خلايا الدم البيضاء :</string>
+    <string name="hematocrit">الهيماتوكريت :</string>
+    <string name="test_name">اسم الاختبار</string>
+    <string name="your_value">القيمة الخاصة بك</string>
+    <string name="unit">الوحده</string>
+    <string name="reference_range">النطاق المرجعي</string>
+    <string name="risk_ratio">نسبة الخطر</string>
+    <string name="hemo_ref_rate">11,5 – 15,5</string>
+    <string name="chole_ref_rate">190 – 210</string>
+    <string name="red_ref_rate">4 – 5.2</string>
+    <string name="white_ref_rate">4500 – 11000</string>
+    <string name="hema_ref_rate">36 – 45</string>
+    <string name="serun_ref_rate">60 – 170</string>
+    <string name="vit_ref_rate">160 – 950</string>
+    <string name="doc_des">يجب أن ترى الطبيب</string>
+    <string name="flags_tit">لديك :</string>
+    <string name="red_flag">أعلام الحمراء</string>
+    <string name="normal_flag">أعلام العادية</string>
+    <string name="blue_flag">أعلام الزرقاء</string>
+    <string name="doc">لماذا ؟</string>
+    <string name="login_act_title">تسجيل الدخول</string>
+    <string name="data_act_title">أدخل بيانات الدم</string>
+    <string name="blood_glucose_a1c">جلوكوز الدم (A1C)</string>
+    <string name="glucose_ref">70 – 105</string>
+    <string name="diag_title">بعد مراجعة بياناتك المدخلة اتضح لنا أنك مصاب ب :</string>
+    <string name="docs_act">التشخيص</string>
+    <string name="eaarly_diabetes">مرض السكري المبكر : \n أنت في طريقك للإصابة بمرض السكري. نظرًا لأن معدل الجلوكوز في الدم (A1C) كان بين النطاق 105 – 126 وهذا يشير إلى مرحلتك ، فأنت في مراحلك المبكرة ، لذلك لا تقلق. \n قد تشمل أعراض مرض السكري: \n الشعور بالعطش أكثر من المعتاد . \n كثرة التبول. \n فقدان الوزن غير المقصود. \n أحد الحلول المقترحة هو الحفاظ على نظام غذائي صحي وممارسة الرياضة باستمرار ، بالإضافة إلى التخلص من الوزن الزائد. يمكنك الاتصال للحصول على المساعدة سواء كان ذلك من الدعم الفني والأطباء لدينا أو من طبيبك الخاص.</string>
+    <string name="docs_act_title">الأمراض المتوقعة</string>
+    <string name="diabetes_des">مرض السكري : \n لديك مرض السكري. نظرًا لأن معدل الجلوكوز في الدم (A1C) كان أعلى من النطاق 126 وهذا يشير إلى مرحلتك. \n قد تشمل أعراض مرض السكري: \n الشعور بالعطش أكثر من المعتاد. \n كثرة التبول. \n فقدان الوزن غير المقصود. \n أحد الحلول المقترحة هو الحفاظ على نظام غذائي صحي وممارسة الرياضة باستمرار ، بالإضافة إلى الحصول على التخلص من الوزن الزائد. يمكنك الاتصال للحصول على المساعدة سواء كان ذلك من الدعم الفني والأطباء لدينا أو من طبيبك الخاص.</string>
+    <string name="hypoglycemia_des">نقص السكر في الدم : \n لديك نقص السكر في الدم الذي يحدث عندما ينخفض مستوى السكر (الجلوكوز) في الدم إلى مستوى منخفض جدًا بحيث يتعذر على وظائف الجسم الاستمرار في أداء وظائفها. هناك العديد من الأسباب وراء حدوث ذلك. السبب الأكثر شيوعًا لانخفاض نسبة السكر في الدم هو الآثار الجانبية للأدوية المستخدمة في علاج مرض السكري. نظرًا لأن معدل الجلوكوز في الدم (A1C) كان أقل من 70 وهذا يشير إلى مرحلتك. \n قد تشمل أعراض بحيرة الجلوكوز: \n شحوب \n ارتجاف \n تعرق \n صداع \n جوع \n غثيان. \n أنت يمكنك طلب المساعدة سواء كان ذلك من الدعم الفني والأطباء لدينا أو من طبيبك الخاص.</string>
+    <string name="anemia_des">فقر الدم : \n لديك فقر الدم وهو حالة لا يحتوي فيها الدم على ما يكفي من خلايا الدم الحمراء السليمة لحمل ما يكفي من الأكسجين إلى أنسجة الجسم. \n فقر الدم ، المعروف أيضًا بانخفاض مستوى الهيموجلوبين ، يمكن أن يجعلك تشعر متعب وضعيف ، حيث أن لديك معدل منخفض من الهيموجلوبين وعدد قليل من خلايا الدم الحمراء. \n وهذا يشير إلى المرحلة الخاصة بك. يمكن الوقاية من العديد من أنواع فقر الدم. ولكن يمكنك تجنب فقر الدم الناجم عن نقص الحديد وفقر الدم الناجم عن نقص الفيتامينات من خلال اتباع نظام غذائي يحتوي على العديد من الفيتامينات والمعادن. \n لا تقلق ، يمكنك الاتصال للحصول على المساعدة سواء كان ذلك من الدعم الفني والأطباء لدينا أو من طبيبك الخاص.</string>
+    <string name="dehy_des">الجفاف : \n لديك جفاف يحدث نتيجة فقدان الماء بشكل غير طبيعي من الجسم مما أدى إلى زيادة معدلات الهيماتوكريت. \n لهذا السبب يكون معدل الهيماتوكريت لديك أكبر من 45٪. \n قد تشمل أعراض الجفاف: \n الشعور بالعطش والدوار \n جفاف الفم \n التعب \n وجود لون غامق ورائحة بول قوية \n - التبول أقل من المعتاد. \n أحد الحلول المقترحة هو شرب الكثير من الماء وتجنب المناطق التي ترتفع فيها درجة الحرارة أو الرطوبة. \n يمكنك طلب المساعدة سواء كان ذلك من الدعم الفني والأطباء لدينا أو من طبيبك الخاص.</string>
+    <string name="aids_des">
+
+        فيروس نقص المناعة البشرية / الإيدز : \n لديك الإيدز الذي يسببه فيروس نقص المناعة البشرية (HIV) مما أدى إلى انخفاض في WBC (عدد خلايا الدم البيضاء). هذا هو السبب في أن عدد خلايا الدم البيضاء لديك أقل من 4500. \n قد تشمل أعراض الجفاف: \n الحمى
+\n صداع \n طفح جلدي \n إسهال \n فقدان الوزن
+\n سعال \n تعرق ليلي. \n على الرغم من عدم وجود علاج لمتلازمة نقص المناعة المكتسب (الإيدز) ، إلا أن هناك بعض الحلول أحدها أدوية الإيدز ومثبطات إنزيم النسخ العكسي للنيوكليوزيد (NRTI). \n يمكنك طلب المساعدة سواء كان ذلك من الدعم الفني والأطباء لدينا أو من طبيبك الخاص.
+
+    </string>
+    <string name="nodevice">ليس لديك جهاز ؟ اضغط لتختصر التسجيل</string>
+</resources>

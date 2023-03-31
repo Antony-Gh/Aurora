@@ -1,0 +1,486 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="?attr/colorOnSecondary"
+    android:orientation="vertical"
+    android:padding="4dp"
+    tools:ignore="MissingDefaultResource">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TableLayout
+                android:id="@+id/tabla_cuerpo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/cell_shape"
+                android:collapseColumns="*"
+                android:orientation="vertical"
+                android:showDividers="end"
+                android:shrinkColumns="*"
+                android:stretchColumns="*">
+
+                <TableRow
+                    android:layout_width="fill_parent"
+                    android:gravity="center_horizontal">
+
+                    <TextView
+                        style="@style/col_text"
+                        android:layout_height="65dp"
+                        android:text="@string/test_name"
+                        android:textSize="18sp"
+                        android:textStyle="bold|italic" />
+
+                    <TextView
+                        style="@style/col_text"
+
+                        android:text="@string/your_value"
+                        android:textSize="18sp"
+                        android:textStyle="bold|italic" />
+
+                    <TextView
+                        style="@style/col_text"
+                        android:text="@string/unit"
+                        android:textSize="18sp"
+                        android:textStyle="bold|italic" />
+
+                    <TextView
+                        style="@style/col_text"
+                        android:text="@string/reference_range"
+                        android:textSize="18sp"
+                        android:textStyle="bold|italic" />
+
+                    <TextView
+                        style="@style/col_text"
+                        android:text="@string/risk_ratio"
+                        android:textSize="18sp"
+                        android:textStyle="bold|italic" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp"
+                    android:gravity="center">
+
+                    <TextView
+                        style="@style/col_text"
+                        android:layout_height="50dp"
+                        android:text="@string/hemoglopin_rate" />
+
+                    <TextView
+                        android:id="@+id/hemo_val"
+                        style="@style/col_text" />
+
+                    <TextView
+                        style="@style/col_text"
+                        android:text="@string/gm_decil" />
+
+                    <TextView
+                        style="@style/col_text"
+                        android:text="@string/hemo_ref_rate" />
+
+                    <TextView
+                        android:id="@+id/hemo_risk"
+                        style="@style/col_text" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp"
+                    android:gravity="center">
+
+                    <TextView
+                        style="@style/col_text"
+                        android:layout_height="50dp"
+                        android:text="@string/cholesterol_rate" />
+
+                    <TextView
+                        android:id="@+id/chole_val"
+                        style="@style/col_text" />
+
+                    <TextView
+                        style="@style/col_text"
+                        android:text="@string/mg_decil" />
+
+                    <TextView
+                        style="@style/col_text"
+                        android:text="@string/chole_ref_rate" />
+
+                    <TextView
+                        android:id="@+id/chole_risk"
+                        style="@style/col_text" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp"
+                    android:gravity="center">
+
+                    <TextView
+                        style="@style/col_text"
+                        android:layout_height="50dp"
+                        android:text="@string/red_blood" />
+
+                    <TextView
+                        android:id="@+id/red_val"
+                        style="@style/col_text" />
+
+                    <TextView
+                        style="@style/col_text"
+                        android:text="@string/millionrbcs" />
+
+                    <TextView
+                        style="@style/col_text"
+                        android:text="@string/red_ref_rate" />
+
+                    <TextView
+                        android:id="@+id/red_risk"
+                        style="@style/col_text" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp"
+                    android:gravity="center">
+
+                    <TextView
+                        style="@style/col_text"
+                        android:layout_height="50dp"
+                        android:text="@string/white_blood" />
+
+                    <TextView
+                        android:id="@+id/white_val"
+                        style="@style/col_text" />
+
+                    <TextView
+                        style="@style/col_text"
+                        android:text="@string/wbcs_l" />
+
+                    <TextView
+                        style="@style/col_text"
+                        android:text="@string/white_ref_rate" />
+
+                    <TextView
+                        android:id="@+id/white_risk"
+                        style="@style/col_text" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp"
+                    android:gravity="center">
+
+                    <TextView
+                        style="@style/col_text"
+                        android:layout_height="50dp"
+                        android:text="@string/hematocrit_rate" />
+
+                    <TextView
+                        android:id="@+id/hema_val"
+                        style="@style/col_text" />
+
+                    <TextView
+                        style="@style/col_text"
+                        android:text="@string/percent" />
+
+                    <TextView
+                        style="@style/col_text"
+                        android:text="@string/hema_ref_rate" />
+
+                    <TextView
+                        android:id="@+id/hema_risk"
+                        style="@style/col_text" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp"
+                    android:gravity="center">
+
+                    <TextView
+                        style="@style/col_text"
+                        android:layout_height="50dp"
+                        android:text="@string/serun_iron" />
+
+                    <TextView
+                        android:id="@+id/serun_val"
+                        style="@style/col_text" />
+
+                    <TextView
+                        style="@style/col_text"
+                        android:text="@string/mcg_decil" />
+
+                    <TextView
+                        style="@style/col_text"
+                        android:text="@string/serun_ref_rate" />
+
+                    <TextView
+                        android:id="@+id/serun_risk"
+                        style="@style/col_text" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp"
+                    android:gravity="center">
+
+                    <TextView
+                        style="@style/col_text"
+                        android:layout_height="50dp"
+                        android:text="@string/vitamin_b" />
+
+                    <TextView
+                        android:id="@+id/vit_val"
+                        style="@style/col_text" />
+
+                    <TextView
+                        style="@style/col_text"
+                        android:text="@string/pg_ml" />
+
+                    <TextView
+                        style="@style/col_text"
+                        android:text="@string/vit_ref_rate" />
+
+                    <TextView
+                        android:id="@+id/vit_risk"
+                        style="@style/col_text" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp"
+                    android:gravity="center">
+
+                    <TextView
+                        style="@style/col_text"
+                        android:layout_height="50dp"
+                        android:text="@string/blood_glucose_a1c" />
+
+                    <TextView
+                        android:id="@+id/glu_val"
+                        style="@style/col_text" />
+
+                    <TextView
+                        style="@style/col_text"
+                        android:text="@string/mg_decil" />
+
+                    <TextView
+                        style="@style/col_text"
+                        android:text="@string/glucose_ref" />
+
+                    <TextView
+                        android:id="@+id/glu_risk"
+                        style="@style/col_text" />
+                </TableRow>
+            </TableLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:orientation="vertical"
+                android:padding="15dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="8dp"
+                    android:fontFamily="@font/cus_font"
+                    android:text="@string/instructions"
+                    android:textColor="?attr/colorOnBackground"
+                    android:textSize="16sp"
+                    android:textStyle="bold" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center_vertical">
+
+                        <LinearLayout
+                            android:layout_width="70dp"
+                            android:layout_height="35dp"
+                            android:layout_margin="5dp"
+                            android:background="@color/green"
+                            android:gravity="center">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="@string/normal"
+                                android:textColor="@color/white"
+                                android:textSize="12sp"
+                                android:textStyle="bold" />
+                        </LinearLayout>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="7dp"
+                            android:text="@string/normal_des"
+                            android:textColor="?attr/colorOnBackground"
+                            android:textSize="12sp"
+                            android:textStyle="bold" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center_vertical">
+
+                        <LinearLayout
+                            android:layout_width="70dp"
+                            android:layout_height="35dp"
+                            android:layout_margin="5dp"
+                            android:background="@color/red"
+                            android:gravity="center">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="@string/danger"
+                                android:textColor="@color/white"
+                                android:textSize="12sp"
+                                android:textStyle="bold" />
+                        </LinearLayout>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="7dp"
+                            android:text="@string/red_color_des"
+                            android:textColor="?attr/colorOnBackground"
+                            android:textSize="12sp"
+                            android:textStyle="bold" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center_vertical">
+
+                        <LinearLayout
+                            android:layout_width="70dp"
+                            android:layout_height="35dp"
+                            android:layout_margin="5dp"
+                            android:background="@color/blue"
+                            android:gravity="center">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="@string/low"
+                                android:textColor="@color/white"
+                                android:textSize="12sp"
+                                android:textStyle="bold" />
+                        </LinearLayout>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="7dp"
+                            android:text="@string/blue_color_des"
+                            android:textColor="?attr/colorOnBackground"
+                            android:textSize="12sp"
+                            android:textStyle="bold" />
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/counts"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:orientation="vertical"
+                android:padding="15dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="8dp"
+                    android:fontFamily="@font/cus_font"
+                    android:text="@string/flags_tit"
+                    android:textColor="?attr/colorOnBackground"
+                    android:textSize="16sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/red_count"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="8dp"
+                    android:text="@string/red_flag"
+                    android:textColor="@color/red"
+                    android:textSize="16sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/green_count"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="8dp"
+                    android:text="@string/normal_flag"
+                    android:textColor="@color/green"
+                    android:textSize="16sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/blue_count"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="8dp"
+                    android:text="@string/blue_flag"
+                    android:textColor="@color/blue"
+                    android:textSize="16sp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/doc_lin"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:padding="15dp"
+                android:visibility="gone">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="8dp"
+                    android:layout_weight="1"
+                    android:text="@string/doc_des"
+                    android:textColor="?attr/colorOnBackground"
+                    android:textSize="16sp"
+                    android:textStyle="bold|italic" />
+
+                <Button
+                    android:id="@+id/doc_but"
+                    android:layout_width="100dp"
+                    android:layout_height="40dp"
+                    android:fontFamily="@font/cus_font"
+                    android:text="@string/doc"
+                    android:textColor="@color/black"
+                    android:textSize="13sp"
+                    android:textStyle="bold" />
+
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>
