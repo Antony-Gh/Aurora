@@ -1,7 +1,7 @@
-# Aurora
-    1. Providing doctors to to follow-up with number of users after having direct access on their reports and history 
-    2. We will target the doctors, hospitals, Health centers and units to provide high service to the patients and the device will be enough if there weren't enough labs or equipments yo make periodic blood analysis for patients or it can be used to follow-up with the patient by check their reports and their vital signs. 
-    3. Different design for the device, chip shaped that will be connected all the yime by the patient's arm to make periodic blood analysis and if the rate of glucose or blood pressure get higher or lower rapidly the device will alarm the patient and their relative after not answering the alarm for 1 minute, the application will connect directly to the first aid center and send all patient's data like address, relative number, the period of not responding and so on. 
+Features :
+  1. Providing doctors to to follow-up with number of users after having direct access on their reports and history 
+  2. We will target the doctors, hospitals, Health centers and units to provide high service to the patients and the device will be enough if there weren't enough labs or equipments yo make periodic blood analysis for patients or it can be used to follow-up with the patient by check their reports and their vital signs. 
+  3. Different design for the device, chip shaped that will be connected all the yime by the patient's arm to make periodic blood analysis and if the rate of glucose or blood pressure get higher or lower rapidly the device will alarm the patient and their relative after not answering the alarm for 1 minute, the application will connect directly to the first aid center and send all patient's data like address, relative number, the period of not responding and so on. 
 
 The Analysis:
 
